@@ -3,6 +3,19 @@
 AIGoFuzzing : Mutation-Based AIG Fuzzer
 =================================================
 
+Our tool AIGoFuzzing is a mutation-based fuzzing tool for AIGs.
+
+For further information we refer to the paper
+
+Daniela Kaufmann, Armin Biere. 
+ [`Fuzzing and Delta Debugging And-Inverter Graph Verification Tools.`](https://danielakaufmann.at/wp-content/uploads/2022/07/TAP_Kaufmann.pdf)
+In Proc. 16th Intl. Conference on Tests and Proofs (TAP), p. 69-88, 2022.
+
+and the corresponding website http://fmv.jku.at/aigfuzzing_artifact/  
+
+Build:
+----------------------------------
+
 To compile use `./configure.sh` and then `make`.
 
 Usage:
